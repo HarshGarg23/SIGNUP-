@@ -1,5 +1,5 @@
 {
-  "homepage": "http://HarshGarg23.github.io/SIGNUP",
+  "homepage":"https://HarshGarg23.github.io/SIGNUP",
   "name": "regi-form",
   "version": "0.1.0",
   "private": true,
@@ -16,8 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "github-pages -d build",
+    "predeploy":"npm run build",
+    "deploy":"github-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
