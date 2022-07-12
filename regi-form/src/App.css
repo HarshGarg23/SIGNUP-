@@ -1,0 +1,42 @@
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+    rgb(209 182 182 / 70%), rgba(255, 255, 255, 0.3)
+  ),url(
+    'https://cdn.pixabay.com/photo/2016/03/25/01/45/abstract-1278052_960_720.jpg'
+    );
+  background-size: cover;
+  background-position: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px 60px;
+  width: 20vw;
+  border-radius: 10px;
+}
+
+h1{
+  color: rgb(77, 1, 77);
+  text-align: center;
+}
+
+button{
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
